@@ -1,0 +1,13 @@
+path: ../datasets/dadishu
+train:
+  - images
+  - images/train
+val:
+  - images
+  - images/train
+test:
+
+names:
+  0: dishu
+
+
