@@ -1,0 +1,11 @@
+path: /home/lime/AI/yolo/yolov10/datasets/dadishu
+train:
+  - images
+val:
+  - images
+test:
+
+names:
+  0: dishu
+
+
