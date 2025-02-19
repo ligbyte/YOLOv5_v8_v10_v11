@@ -22,4 +22,4 @@ REM Push changes to remote repository
 git push
 
 REM Notify user of completion
-echo 提交成功.
+echo Commit and push completed.
