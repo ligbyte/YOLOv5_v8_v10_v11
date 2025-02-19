@@ -1,4 +1,8 @@
 @echo off
+:: 设置代码页为UTF-8
+chcp 65001
+
+@echo off
 REM Check if the commit message is provided
 if "%~1"=="" (
     echo Usage: commit.bat "Your commit message"
@@ -18,4 +22,4 @@ REM Push changes to remote repository
 git push
 
 REM Notify user of completion
-echo Commit and push completed.
+echo 提交成功.
